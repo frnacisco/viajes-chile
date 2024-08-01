@@ -1,0 +1,111 @@
+/* GoogleFont Raleway */
+
+body * {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Navbar, Color fondo */
+
+.navbar {
+    background-color: #249da8 !important;
+}
+
+/* Navbar, Menu a la derecha */
+
+header ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: center;
+    float: right;
+}
+
+/* Color fondo Negro y Texto Blanco */
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Color Iconos FontAwesome */
+
+.icono1 {
+    background-color: #0dcaf0 !important;
+    color: white !important;
+    text-align: center;
+}
+
+/* Quienes Somos, Destacados, Contacto - Alineacion */
+
+h1 {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+/* Quienes Somos, Color texto */
+
+p {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Carousel, Tamaño */
+
+.carousel-inner img {
+    width: 100%;
+    max-height: auto;
+}
+
+/* Destacados, color fondo texto - padding */
+
+.color_destacados {
+    background-color: #0dcaf0 !important;
+    color: white !important;
+    padding-block-end: 40px;
+}
+
+/* Destacados, disminucion tamaño card2 */
+
+#card2 {
+    height: 205px;
+    width: 100%;
+}
+
+/*Contacto, color button */
+
+.btn-info {
+    color: white !important;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    font-weight: bold;
+    background-color: #0dcaf0;
+    font-family: "Raleway";
+    font-size: 400;
+    position: absolute;
+    width: 100%;
+    padding: 2px
+}
+
+.page-footer {
+    margin-top: 50px;
+}
+
+/* Botones de redes sociales*/
+
+.btn-outline-light {
+    width: 50px;
+    color: #0dcaf0;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+/* Separador Titulos */
+
+.container {
+    margin-top: 50px;
+}
