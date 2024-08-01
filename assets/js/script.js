@@ -1,9 +1,32 @@
+// Scrooling lento
+$(document).ready(function() {
+    $("a").on('click', function(event) {
+
+        if (this.hash !== "") {
+
+            event.preventDefault();
+
+
+            const hash = this.hash;
+
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+ 
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+
+
 // Modificaciones para el carrusel
 const myCarouselElement = document.querySelector('#carouselViajes');
 const carousel = new bootstrap.Carousel(myCarouselElement, {
-    // Intervalo en milisegundos
+
     interval: 5000,
-    // Pausar el slide si el mouse está encima
+
     pause: 'hover'
 });
 
