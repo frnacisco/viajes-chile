@@ -1,3 +1,11 @@
+// Modificaciones para el carrusel
+const myCarouselElement = document.querySelector('#carouselViajes');
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+    // Intervalo en milisegundos
+    interval: 5000,
+    // Pausar el slide si el mouse está encima
+    pause: 'hover'
+});
 
 
 
